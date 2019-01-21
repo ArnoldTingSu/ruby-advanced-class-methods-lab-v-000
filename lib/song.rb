@@ -46,6 +46,8 @@ class Song
     song_name = info[1].gsub(".mp3", "")
     
     song = self.create
+    song.name = song_name
+    song.artist = artist_name
     
   end
     
